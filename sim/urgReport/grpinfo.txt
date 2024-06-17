@@ -1,0 +1,822 @@
+Group : router_test_pkg::router_scoreboard::src_cg
+
+===============================================================================
+Group : router_test_pkg::router_scoreboard::src_cg
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 65.28  65.28    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN02/AKumaR/VLSI_RN/UVM_LABS/ROUTER_1X3_TB/sim/../tb/router_scoreboard.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME              
+ 65.28 1      100    1        64           64            top.me.obj.src_cg 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_test_pkg::router_scoreboard::src_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        2         6       72.22   
+Crosses   9        5         4       44.44   
+
+
+Variables for Group  router_test_pkg::router_scoreboard::src_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+addr     3        1         2       66.67   100  1      1        4                    
+len      3        0         3       100.00  100  1      1        0                    
+err      2        1         1       50.00   100  1      1        2                    
+
+
+Crosses for Group  router_test_pkg::router_scoreboard::src_cg
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+ADDRXLEN 9        5         4       44.44   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable addr
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 3        1         2       66.67   
+
+
+Automatically Generated Bins for addr
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[0]] 0     1        1      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS  
+IB        0     Illegal 
+[auto[3]] 0     Illegal 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[1] 1000  1        
+auto[2] 3000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for len
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg  729   1        
+med  1756  1        
+low  1515  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable err
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        1         1       50.00   
+
+
+Automatically Generated Bins for err
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[1]] 0     1        1      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 4000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross ADDRXLEN
+
+
+Samples crossed: addr len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        5         4       44.44   5       
+
+
+Automatically Generated Cross Bins for ADDRXLEN
+
+
+Element holes
+
+addr      len COUNT AT LEAST NUMBER 
+[auto[0]] *   --    --       3      
+
+
+Uncovered bins
+
+addr      len         COUNT AT LEAST NUMBER 
+[auto[1]] [lrg , med] --    --       2      
+
+
+Excluded/Illegal bins
+
+addr      len               COUNT STATUS           
+[auto[3]] [lrg , med , low] --    Illegal (3 bins) 
+
+
+Covered bins
+
+addr    len COUNT AT LEAST 
+auto[1] low 1000  1        
+auto[2] lrg 729   1        
+auto[2] med 1756  1        
+auto[2] low 515   1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.me.obj.src_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 65.28 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                       
+ 65.28  65.28    1      100    1        1            64           64                    router_test_pkg::router_scoreboard::src_cg 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.me.obj.src_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 8        2         6       72.22   
+Crosses   9        5         4       44.44   
+
+
+Variables for Group Instance  top.me.obj.src_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+addr     3        1         2       66.67   100  1      1        4                    
+len      3        0         3       100.00  100  1      1        0                    
+err      2        1         1       50.00   100  1      1        2                    
+
+
+Crosses for Group Instance  top.me.obj.src_cg
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+ADDRXLEN 9        5         4       44.44   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable addr
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 3        1         2       66.67   
+
+
+Automatically Generated Bins for addr
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[0]] 0     1        1      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS  
+IB        0     Illegal 
+[auto[3]] 0     Illegal 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[1] 1000  1        
+auto[2] 3000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for len
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg  729   1        
+med  1756  1        
+low  1515  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable err
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        1         1       50.00   
+
+
+Automatically Generated Bins for err
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[1]] 0     1        1      
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 4000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross ADDRXLEN
+
+
+Samples crossed: addr len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        5         4       44.44   5       
+
+
+Automatically Generated Cross Bins for ADDRXLEN
+
+
+Element holes
+
+addr      len COUNT AT LEAST NUMBER 
+[auto[0]] *   --    --       3      
+
+
+Uncovered bins
+
+addr      len         COUNT AT LEAST NUMBER 
+[auto[1]] [lrg , med] --    --       2      
+
+
+Excluded/Illegal bins
+
+addr      len               COUNT STATUS           
+[auto[3]] [lrg , med , low] --    Illegal (3 bins) 
+
+
+Covered bins
+
+addr    len COUNT AT LEAST 
+auto[1] low 1000  1        
+auto[2] lrg 729   1        
+auto[2] med 1756  1        
+auto[2] low 515   1        
+
+
+Group : router_test_pkg::router_scoreboard::dst_cg
+
+===============================================================================
+Group : router_test_pkg::router_scoreboard::dst_cg
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+ 70.37  70.37    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN02/AKumaR/VLSI_RN/UVM_LABS/ROUTER_1X3_TB/sim/../tb/router_scoreboard.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME              
+ 70.37 1      100    1        64           64            top.me.obj.dst_cg 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_test_pkg::router_scoreboard::dst_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        1         5       83.33   
+Crosses   9        5         4       44.44   
+
+
+Variables for Group  router_test_pkg::router_scoreboard::dst_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+addr     3        1         2       66.67   100  1      1        4                    
+len      3        0         3       100.00  100  1      1        0                    
+
+
+Crosses for Group  router_test_pkg::router_scoreboard::dst_cg
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+ADDRXLEN 9        5         4       44.44   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable addr
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 3        1         2       66.67   
+
+
+Automatically Generated Bins for addr
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[0]] 0     1        1      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS  
+IB        0     Illegal 
+[auto[3]] 0     Illegal 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[1] 1000  1        
+auto[2] 3000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for len
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg  729   1        
+med  1756  1        
+low  1515  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross ADDRXLEN
+
+
+Samples crossed: addr len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        5         4       44.44   5       
+
+
+Automatically Generated Cross Bins for ADDRXLEN
+
+
+Element holes
+
+addr      len COUNT AT LEAST NUMBER 
+[auto[0]] *   --    --       3      
+
+
+Uncovered bins
+
+addr      len         COUNT AT LEAST NUMBER 
+[auto[1]] [lrg , med] --    --       2      
+
+
+Excluded/Illegal bins
+
+addr      len               COUNT STATUS           
+[auto[3]] [lrg , med , low] --    Illegal (3 bins) 
+
+
+Covered bins
+
+addr    len COUNT AT LEAST 
+auto[1] low 1000  1        
+auto[2] lrg 729   1        
+auto[2] med 1756  1        
+auto[2] low 515   1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.me.obj.dst_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 70.37 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                       
+ 70.37  70.37    1      100    1        1            64           64                    router_test_pkg::router_scoreboard::dst_cg 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.me.obj.dst_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 6        1         5       83.33   
+Crosses   9        5         4       44.44   
+
+
+Variables for Group Instance  top.me.obj.dst_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+addr     3        1         2       66.67   100  1      1        4                    
+len      3        0         3       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.me.obj.dst_cg
+
+
+CROSS    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+ADDRXLEN 9        5         4       44.44   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable addr
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 3        1         2       66.67   
+
+
+Automatically Generated Bins for addr
+
+
+Uncovered bins
+
+NAME      COUNT AT LEAST NUMBER 
+[auto[0]] 0     1        1      
+
+
+Excluded/Illegal bins
+
+NAME      COUNT STATUS  
+IB        0     Illegal 
+[auto[3]] 0     Illegal 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[1] 1000  1        
+auto[2] 3000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable len
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for len
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg  729   1        
+med  1756  1        
+low  1515  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross ADDRXLEN
+
+
+Samples crossed: addr len
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 9        5         4       44.44   5       
+
+
+Automatically Generated Cross Bins for ADDRXLEN
+
+
+Element holes
+
+addr      len COUNT AT LEAST NUMBER 
+[auto[0]] *   --    --       3      
+
+
+Uncovered bins
+
+addr      len         COUNT AT LEAST NUMBER 
+[auto[1]] [lrg , med] --    --       2      
+
+
+Excluded/Illegal bins
+
+addr      len               COUNT STATUS           
+[auto[3]] [lrg , med , low] --    Illegal (3 bins) 
+
+
+Covered bins
+
+addr    len COUNT AT LEAST 
+auto[1] low 1000  1        
+auto[2] lrg 729   1        
+auto[2] med 1756  1        
+auto[2] low 515   1        
+
+
+Group : router_test_pkg::router_scoreboard::src_cg1
+
+===============================================================================
+Group : router_test_pkg::router_scoreboard::src_cg1
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN02/AKumaR/VLSI_RN/UVM_LABS/ROUTER_1X3_TB/sim/../tb/router_scoreboard.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME               
+100.00 1      100    1        64           64            top.me.obj.src_cg1 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_test_pkg::router_scoreboard::src_cg1
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 5        0         5       100.00  
+
+
+Variables for Group  router_test_pkg::router_scoreboard::src_cg1
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+pyld     5        0         5       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable pyld
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        0         5       100.00  
+
+
+User Defined Bins for pyld
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg1 21274 1        
+lrg  19519 1        
+med  19307 1        
+low1 19540 1        
+low  19796 1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.me.obj.src_cg1
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                        
+100.00 100.00    1      100    1        1            64           64                    router_test_pkg::router_scoreboard::src_cg1 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.me.obj.src_cg1
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 5        0         5       100.00  
+
+
+Variables for Group Instance  top.me.obj.src_cg1
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+pyld     5        0         5       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable pyld
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        0         5       100.00  
+
+
+User Defined Bins for pyld
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg1 21274 1        
+lrg  19519 1        
+med  19307 1        
+low1 19540 1        
+low  19796 1        
+
+
+Group : router_test_pkg::router_scoreboard::dst_cg1
+
+===============================================================================
+Group : router_test_pkg::router_scoreboard::dst_cg1
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN02/AKumaR/VLSI_RN/UVM_LABS/ROUTER_1X3_TB/sim/../tb/router_scoreboard.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME               
+100.00 1      100    1        64           64            top.me.obj.dst_cg1 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_test_pkg::router_scoreboard::dst_cg1
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 5        0         5       100.00  
+
+
+Variables for Group  router_test_pkg::router_scoreboard::dst_cg1
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+pyld     5        0         5       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable pyld
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        0         5       100.00  
+
+
+User Defined Bins for pyld
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg1 21274 1        
+lrg  19519 1        
+med  19307 1        
+low1 19540 1        
+low  19796 1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.me.obj.dst_cg1
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                        
+100.00 100.00    1      100    1        1            64           64                    router_test_pkg::router_scoreboard::dst_cg1 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.me.obj.dst_cg1
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 5        0         5       100.00  
+
+
+Variables for Group Instance  top.me.obj.dst_cg1
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+pyld     5        0         5       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable pyld
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 5        0         5       100.00  
+
+
+User Defined Bins for pyld
+
+
+Bins
+
+NAME COUNT AT LEAST 
+lrg1 21274 1        
+lrg  19519 1        
+med  19307 1        
+low1 19540 1        
+low  19796 1        
+
+
